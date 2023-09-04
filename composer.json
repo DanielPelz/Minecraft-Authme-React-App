@@ -1,0 +1,27 @@
+{
+    "name": "root/penta",
+    "description": "Pentacraft - Surivial Minecraft Server",
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Penta\\Controller\\": "controllers/",
+            "Penta\\Model\\": "models/",
+            "Penta\\Views\\": "views/" 
+         
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Pelz"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^6.3",
+        "symfony/http-foundation": "^6.3",
+        "vlucas/phpdotenv": "^5.5" 
+      
+    }
+}
